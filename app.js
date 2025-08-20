@@ -63,16 +63,3 @@ if (yosh < 7) {
 }
 
 
-let x = 5;
-let y = 5;
-let z = 5;
-
-if (x + y <= z || x + z <= y || y + z <= x) {
-  console.log("Uchburchak hosil bo'lmaydi");
-} else if (x === y && y === z) {
-  console.log("Teng tomonli");
-} else if (x === y || y === z || x === z) {
-  console.log("Teng yonli");
-} else {
-  console.log("Turli tomonli");
-}
